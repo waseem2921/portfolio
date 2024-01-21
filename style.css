@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif; /*Declaration of Font Type*/
+    box-sizing: border-box;
+}
+:root{ /*Declaration of Colors Required*/
+    background-color: #1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+header{ /*Header*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{ /*Portfolio*/
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: default;
+    text-decoration: none;
+}
+.navbar a{  /*NAvbar*/
+ color: #fff;
+ font-size: 1.2rem;
+ margin-left: 4rem;
+ margin-right: 2rem;
+ text-decoration: none;
+}
+.navbar a:hover{  /*Hover effect for navbar elements*/
+    color: #0ef;
+}
+.mainsection{   /*Page 1 Information Styling*/
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.matter h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.matter h3{
+    font-size: 2rem;
+}
+.matter h4{
+    font-size: 1.5rem;
+}
+.matter p{
+    font-size: 1rem;
+}
+.matter h2:hover,
+h3:hover,
+h4:hover{
+   color: #0ef;
+   transition-duration: 4s;  
+   border: #fff;
+}
+button{
+    color: #1f242d;
+    background-color: #0ef;
+    height: 50px;
+    width: 150px;
+    border-radius: 7%;
+    font-size: larger;
+    box-shadow: /*Box Shadow*/
+    0 0 0.6rem #fff;
+}
+button:hover{
+    background-color: #323946;
+    color: #fff;
+    transition: .4s ease;
+    box-shadow:
+    0 0 0.8rem #0ef;
+}
+.profile{  /*Profile*/
+    height: 350px;
+    width: 350px;
+border-radius: 10%;
+    background-image: url(profile1.jpg);
+    background-size: cover;
+    box-shadow:  /*Box Shadow*/
+    0 0 1rem #fff,
+    inset 0 0 1rem #fff,
+    0 0 2rem #0ef,
+    inset 0 0 2rem #0ef;
+    border: 0.1rem solid white;
+}
+.profile:hover{  /*Profile on Hover*/
+    height: 450px;
+    width: 450px;
+    border:2px solid #0ef;
+    transition-timing-function: 4s ease-out;
+}
+.background2{  /*Background 2*/
+    background-color: #323946;
+    height: 650px;
+    width: 100%;
+}
+.profile2{  /*Profile 2*/
+    height: 350px;
+    width: 450px;
+    border-radius: 50%;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  /*Box Shadow*/
+    0 0 1rem #fff;
+}
+.mainsection2{  /*About us matter*/
+   height: 200px;
+   width: 800px;
+   color: #fff;
+   margin-left: 600px;
+   margin-bottom: 400px;
+}
+.mainsection2 h1{
+    font-size: 2.5rem;
+}
+.mainsection2 h1:hover{
+    color:#0ef;
+}
+.mainsection2 p{
+    font-size: 1.5rem;
+}
+.background3{  /*background 3*/
+    background-color: #1f242d;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.background3 h2:hover{
+    color: #0ef;
+}
+.box1{  /*Amazon Clone*/
+    background-image: url(amazonclone.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    box-shadow:  /*Box Shadow*/
+    0 0 1rem #0ef,
+    0 0 2rem #fff;
+}
+.box2{  /*Netflix clone*/
+    background-image: url(netflixclone.webp);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    box-shadow:  /*Box Shadow*/
+    0 0 1rem #0ef,
+    0 0 2rem #fff;
+}
+.box1:hover,
+.box2:hover{
+    height: 300px;
+    width: 400px;
+    border:2px solid #0ef;
+    transition-timing-function: 4s ease-out;
+}
+.background4{  /*Backlground 4*/
+    background-color: #323946;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.background4 h2{
+    margin-left: -200px;
+}
+.icons{  /*icons Display*/
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+footer{  /*Footer Section*/
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+}
+footer:hover{
+    color: #0ef;
+}
+.fbutton{
+  margin-left: 650px;
+}
